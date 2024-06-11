@@ -1,0 +1,238 @@
+<html>
+<head>
+	<title>Website</title>
+
+<style>
+	*{
+	box-sizing: border-box;
+	}
+
+body {
+	font-family: Arial;
+	padding: 21px;
+	background-image: url(OnePieceBackground.jpeg);
+}
+
+/* Style header/blog title */
+.header {
+	background: powderblue;
+	padding: 25px;
+	text-align: center;
+	background-image: url(OnePiece.jpg);
+}
+
+.header h1{
+	font-size: 50px;
+	color: white;
+}
+
+/*style the top navigator bar*/
+.topnav {
+	overflow: hidden;
+	background-color: #DB7093;
+}
+
+/*Style the topnav links*/
+.topnav a{
+	float: left;
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/*Change color on hover */
+.topnav a:hover {
+	background-color:pink;
+	color: black;
+}
+
+/*Create two unequal columns that floats next to each other */
+/*Left column */
+.leftcolumn {
+	float: left;
+	width: 75%;
+}
+
+/*Right column*/
+.rightcolumn {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+/*Fake image*/
+.fakeimg {
+	background-color: ;
+	width: 100%;
+	padding: 20px;
+}
+
+/*Add a card effect for articles*/
+.card {
+	background-color: #87CEEB;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/*Clear floats after the columns*/
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Footer */
+.footer {
+	padding: 1px;
+	text-align: center;
+	background: #DB7093;
+	margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+.leftcolumn, .rightcolumn {
+	width: 100%;
+	padding: 0;
+	}
+}
+
+/* Responsive layout - whe the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+}
+
+</style>
+
+</head>
+<body>
+
+	<div class="header">
+		<h1>One Piece</h1>
+	</div>
+
+	<div class="topnav">
+		<a href="home.html">1</a>
+		<a href="#">2</a>
+		<a href="#">3</a>
+		<a href="#">4</a>
+		<a href="#">5</a>
+		<a href="#">6</a>
+		<a href="#">7</a>
+		<a href="#">8</a>
+		<a href="#">9</a>
+		<a href="#">10</a>
+		<a href="#">11</a>
+		<a href="#">12</a>
+		<a href="#">13</a>
+		<a href="#">14</a>
+		<a href="#">15</a>
+		<a href="#">16</a>
+		<a href="#">17</a>
+		<a href="#">18</a>
+		<a href="#">19</a>
+		<a href="#" style="float:right">20</a>
+	</div>
+
+	<div class="row">
+		<div class="leftcolumn">
+		<div class="card">
+		<h1>One Piece</h1>
+		<h5>One Piece tayang pada 20 Oktober 1999-Sekarang. One Piece juga sudah memiliki tayangan serial animasi sebanyak 1107 episode. One Piece juga bergenrekan petualangan dan fantasi.</h5>
+		<img src="OnePieceFamily.jpg" height="450px" width="100%">
+		<h5>One Piece yang menghadirkan keempat protagonis One Piece, yaitu Monkey D.Luffy, Roronoa Zoro, Nami, dan Usopp. Setelah menghilang cukup lama, harta karun sang bajak laut bernama Woonan tersembunyi di salah satu belahan dunia.<br>One Piece menceritakan tentang seorang remaja 
+(Luffy) yang ingin mewujudkan cita-citanya untuk mengarungi lautan dan menjadi seorang 
+raja bajak laut. One Piece adalah tujuan utama (Luffy) dan krunya, serta beberapa Bajak Laut lainnya, yang semuanya berusaha mengklaim harta karun di untuk menjadi Raja Bajak Laut.</h5>
+	</div>
+
+	<div class="card">
+		<h1>Monkey D.Luffy</h1>
+		<h5>Monkey D.Luffy dipanggil sebagai Luffy</h5>
+		<img src="Luffy.jpeg" height="420px" width="100%">
+	<p> <b>Luffy</b></p>
+		<p>Monkey D. Luffy, juga dikenal sebagai "Luffy Topi Jerami" dan umumnya sebagai "Topi Jerami"adalah pendiri dan kapten dari Bajak Laut Topi Jerami yang semakin terkenal dan kuat, serta yang paling kuat dari petarung topnya. Dia ingin menemukan harta karun legendaris yang ditinggalkan oleh mendiang Gol D. Roger dan dengan demikian menjadi Raja Bajak Laut yang akan membantu memfasilitasi mimpinya yang tidak diketahui yang dia ceritakan hanya kepada Shanks, saudara laki-lakinya, dan krunya. Dia percaya bahwa menjadi Raja Bajak Laut berarti memiliki kebebasan terbesar di dunia.</p>
+	</div>
+
+    
+    <div class="card">
+		<h1>Roronoa Zoro</h1>
+		<h5>Roronoa Zoro dipanggil sebagai Zoro</h5>
+		<img src="Zoro.jpeg" height="400px" width="100%">
+	<p> <b>Zoro</b></p>
+		<p>Zoro adalah seorang pendekar pedang yang menjadi pemburu bajak laut. Zoro akhirnya bergabung dengan Luffy untuk mewujudkan mimpinya menjadi seorang pendekar pedang terhebat di dunia One Piece.</p>
+	</div>
+
+
+		<div class="card">
+		<h1>Nami</h1>
+		<h5>Nami dipanggil sebagai Nami</h5>
+		<img src="Namii.jpeg" height="420px" width="100%">
+	<p> <b>Nami</b></p>
+		<p>Nami berperan sebagai navigator Bajak Laut Topi Jerami, menggunakan keahliannya untuk memandu kapal mereka melintasi Grand Line. Nami dikenal sebagai pencuri yang ulung. Impiannya adalah untuk dapat memetakan seluruh dunia. Dia memiliki nilai bounty sebesar Berry 16.000.000 setelah peristiwa di Enies Lobby. Setelah Bajak Laut Topi Jerami berhasil mengalahkan Keluarga Donquixote, Nami mendapat kenaikan bounty menjadi Berry 66.000.000.</p>
+	</div>
+
+
+		<div class="card">
+		<h1>God Usopp</h1>
+		<h5>God Usopp dipanggil sebagai Usopp</h5>
+		<img src="Usopp.jpeg" height="420px" width="100%">
+	<p> <b>Usopp</b></p>
+		<p>Usopp adalah penembak jitu dari Bajak Laut Topi Jerami. Mimpinya adalah menjadi bajak laut hebat seperti ayahnya Yasopp, anggota Bajak Laut Rambut Merah Shanks "Rambut Merah". Usopp dikenal karena hidungnya yang panjang, mengacu pada fakta bahwa ia cenderung banyak berbohong. Dia adalah seorang penemu, pelukis, dan pematung berbakat. Dalam pertempuran, ia terutama mengandalkan ketapel untuk menembakkan berbagai jenis amunisi dengan presisi tinggi yang dikoordinasikan dengan serangkaian kebohongan dan senjata lain yang memberinya gaya bertarung unik bernama "The Usopp Arsenal". Untuk membantu Topi Jerami menyelamatkan Nico Robin, dia menjadi terkenal di bawah alter egonya "Sogeking, Raja Penembak Jitu".</p>
+	</div>
+
+
+		<div class="card">
+		<h1>Sanji</h1>
+		<h5>Vinsmoke Sanji dipanggil sebagai Sanji</h5>
+		<img src="Sanji.jpeg" height="420px" width="100%">
+	<p> <b>Sanji</b></p>
+		<p>Sanji adalah chef, Sanji tidak sebatas memasak saja. Faktanya, dalam hal pertarungan, Sanji adalah salah satu kru terbaik, hanya tertinggal sedikit dari Luffy dan Zoro.  Sanji dianggap sebagai salah satu dari Trio Monster dari Topi Jerami karena kekuatannya. Karena peran mereka sebagai pendukung utama Luffy, Zoro dan Sanji disebut sebagai Sayap Raja Bajak Laut. Meskipun memiliki kekuatan yang besar, Sanji cenderung diremehkan oleh Pemerintah Dunia dan hampir tidak pernah masuk dalam tiga besar bounty tertinggi, dengan satu pengecualian setelah kejadian di Whole Cake Island.</p>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+	<div class="rightcolumn">
+		<div class="card">
+		<h2>About Me</h2>
+		<img src="Me.png" height="250px" width="100%">
+		<h5>Nama : Dahlia Wulan Sari</h5>
+		<h5>Sekolah: SMKS INOVASI MANDIRI</h5>
+		<h5>Alamat : Sumedang</h5>
+		<h5>Jenis Kelamin : Perempuan</h5>
+		<h5>Tanggal Lahir : 10 Agustus 2007</h5>
+</div>
+
+	<div class="card">
+		<h3>Popular Post</h3>
+		<img src="MonkeyD_Luffy.jpeg" height="300px" width="100%"><br><br>
+		<img src="RoronoaZoro.jpeg" height="300px" width="100%"><br><br>
+		<img src="Nami.jpeg" height="300px" width="100%"><br><br>
+		<img src="GodUsopp.jpeg" height="300px" width="100%"><br><br>
+		<img src="VinsmokeSanji.jpeg" height="300px" width="100%"><br><br>
+</div>
+
+	<div class="card">
+		<h3>Follow Me</h3>
+		<p>@liadumps08</p>
+</div>
+</div>
+</div>
+
+	<div class="footer">
+		<p> Copyright &copy; Dahlia Wulan Sari<p>
+	</div>
+
+</body>
+</html>
